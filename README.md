@@ -2,10 +2,19 @@
 
 This is a utility for programming a static IP address into a Xilinx SmartLynq JTAG programmer.  To use:
 
-(1) Download this repository.  
+(1) Have either Vivado or Vivado Lab Edition installed on your computer.
 
-(2) Make *absolutely certain* that only one JTAG programmer is plugged into your computer!   Failure to ensure that only one JTAG programmer is plugged in is likely to brick a SmartLynq!
+(2) Download this repository.  
 
-(3) Plug in a SmartLynq JTAG programmer via USB.   It should show an IP address on the top line of the screen.   If it doesn't, unplug the USB interface, and plug it back in.  It may take several tries before the SmartLynq shows an IP address.  
+(3) Plug in a SmartLynq JTAG programmer via USB.  Make *absolutely certain* that only one JTAG programmer is plugged into your computer!  (Failure to ensure that only one JTAG programmer is plugged in is likely to brick a SmartLynq!).  There should be no external power supply or ethernet cable plugged into the SmartLynq, just the USB cable.
+
+(4) The SmartLynq should show an IP address on the top line of the screen.   If it doesn't, unplug the USB interface, and plug it back in.  It may take several tries before the SmartLynq shows an IP address.  
+
+(5) The IP address at the top of the SmartLynq is the IP address of the USB-over-IP interface.  In the instructions below, it is refered to as the USB_IP.  The ethernet static IP adress you wish to program into the SmartLynq will be called STATIC_IP.  
+
+(6) Look at the "vivado" setting in "smartlynq_static_ip.conf" and make sure that it points to where Vivado (or Vivado Lab Edition) is installed on your computer.  
+
+
+
 
 
