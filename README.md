@@ -1,6 +1,6 @@
 # smartlynq_static_ip
 
-This is a utility for programming a static IP address into a Xilinx SmartLynq JTAG programmer.  To use:
+This is a Linux utility for programming a static IP address into a Xilinx SmartLynq JTAG programmer.  To use:
 
 (1) Have either Vivado or Vivado Lab Edition installed on your computer.
 
