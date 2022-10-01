@@ -19,5 +19,9 @@ This is a utility for programming a static IP address into a Xilinx SmartLynq JT
 ./smartlynq_static_ip <USB_IP> <STATIC_IP>
 ~~~
 
+For instance, if the SmartLynq display shows a USB_IP of 10.0.0.2 and you want to set a static IP address of 10.11.12.2, run the command:
+~~~
+./smartlynq_static_ip 10.0.0.2 10.11.12.2
+~~~
 
-
+(8) That it's, you're done!
