@@ -14,7 +14,12 @@ This is a utility for programming a static IP address into a Xilinx SmartLynq JT
 
 (6) Look at the "vivado" setting in "smartlynq_static_ip.conf" and make sure that it points to where Vivado (or Vivado Lab Edition) is installed on your computer.  
 
-
+(7) Run the command:
+~~~
+<
+./smartlynq_static_ip <USB_IP> <STATIC_IP>
+.>
+~~~
 
 
 
