@@ -16,9 +16,7 @@ This is a utility for programming a static IP address into a Xilinx SmartLynq JT
 
 (7) Run the command:
 ~~~
-<
 ./smartlynq_static_ip <USB_IP> <STATIC_IP>
-.>
 ~~~
 
 
